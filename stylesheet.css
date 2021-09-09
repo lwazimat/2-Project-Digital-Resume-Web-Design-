@@ -1,0 +1,122 @@
+       html,
+            body {
+                font-family: Roboto, sans-serif;
+                margin: 0;
+                color: black;
+                padding: 10px;
+                background-image:url(background%20pic.png);
+                background-size: cover;
+                background-position: center;
+            }
+            .header{
+                text-align: center;
+                color: white;
+                padding: 20px;
+            }
+            .wrapper {
+                display: inline-flex:
+                width: 100%;
+                color: white;
+                
+            }
+            .sidebar{ 
+            width: 100%;
+            
+            display: inline-flex;
+            }
+            .menu{
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+            .content info{ 
+            width: 60%
+            margin-left:20px;
+            }
+            li.menu-list{ //<!--//why is it when i put a full stop the whole thing changes//-->
+                padding: 10px;
+                text-align:left;
+                color: white;
+                margin-left: -300%;
+                list-style: none;
+            }
+            
+            .content-info{
+                width: 60%;
+                margin-left: 20px;
+                 color: white;
+            }
+            
+            .profile-img{
+                width: 50%;
+                height: 10%;
+                border-radius: 50%;
+                margin-left: 10%;
+                margin-right: 25%;
+                background-repeat: no-repeat;
+            }
+           
+            .list{
+                font-weight: 600;
+                width: 65%;
+                list-style-type: none;
+                color: white;
+            }
+            .ready{
+                float: left;
+                -webkit-animation-timing-function:linear;
+                animation-timing-function: linear;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-delay: 1s;
+                animation-delay: 1s;
+                -webkit-animation-duration: 20s;
+                animation-duration: 20s;
+                -webkit-animation-name: marginator;
+                animation-name: marginator;
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite; }
+
+            
+            }
+            div#carousel.ready > *{
+                display: inline-block;
+                float:left;
+                overflow: hidden;
+
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+
+
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+
+                -webkit-animation-delay: 1s;
+                animation-delay: 1s;
+
+
+                -webkit-animation-duration: 20s;
+                animation-duration: 20s;
+
+
+                -webkit-animation-name: marginator;
+                animation-name: marginator;
+
+
+
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+                }
+
+            .links{
+                font-weight: 600;
+                color: white;
+                text-decoration: none;
+            }
+          .footer{
+            
+            color: white;
+            padding: 10px;
+            text-align: center;
+          
+             
